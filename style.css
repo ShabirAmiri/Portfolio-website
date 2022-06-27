@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background: rgb(69, 249, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 249, 252, 1) 0%,
+    rgba(253, 29, 66, 1) 100%
+  );
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 120px;
+  color: gray;
+  font-size: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  left: 100px;
+  top: -10px;
+  text-shadow: 1px 1px 60px white;
+}
+h2 {
+  margin-top: 80px;
+  color: gray;
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  top: 120px;
+  left: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 500px;
+  right: 100px;
+}
+
+.icons {
+  position: absolute;
+  width: 80px;
+}
+#html {
+  left: 50px;
+  top: 200px;
+}
+#css {
+  left: 200px;
+  top: 130px;
+}
+#js {
+  left: 350px;
+  top: 200px;
+}
+.know {
+  width: 200px;
+  position: absolute;
+  right: 150px;
+  top: 280px;
+}
+
+.about-me {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  top: 350px;
+  left: 110px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.51);
+  display: absolute;
+  font-family: "Work Sans", sans-serif;
+  /* font-family: "Yellowtail", cursive; */
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.line {
+  width: 730px;
+  height: 10px;
+  border-bottom: solid white 1px;
+  box-shadow: rgb(44, 179, 156) 0 px;
+  top: 280px;
+  position: relative;
+  left: 100px;
+  box-shadow: 0 9px 21px -2px rgb(21, 129, 111);
+}
+
+.projects {
+  border: solid red 1px;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 670px;
+  left: 120px;
+}
+h5 {
+  color: gray;
+}
+.toolbar {
+  display: flex;
+  gap: 100px;
+  font-size: 25px;
+  margin-left: 100px;
+  position: fixed;
+  border-bottom: solid 2px white;
+  width: 1200px;
+  font: bold;
+  padding: 20px;
+}
+.links:hover {
+  color: rgb(255, 255, 255, 0.8);
+  text-decoration: blink;
+}
+.links {
+  text-decoration-line: none;
+  color: #333;
+}
+
+.toolbtn {
+  border: none;
+  color: #333;
+  background-color: transparent;
+  text-decoration-line: none;
+  font-size: 25px;
+}
+.toolbtn:hover {
+  color: rgb(255, 255, 255, 0.8);
+}
+.closemodalstyle {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+.langModalStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  backdrop-filter: blur(50px);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  border-color: rgb(81, 219, 16);
+  border: 1px;
+  color: aliceblue;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.langContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.langHeading {
+  color: rgb(252, 252, 253);
+  font-size: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.lagnstyle {
+  color: rgb(252, 252, 253, 1);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.project-links {
+  color: rgba(253, 29, 66, 0.5);
+  font-size: 30px;
+}
+.skills-container {
+  display: flex;
+  gap: 50px;
+}
+.contacs-container {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  color: #333;
+}
+.footer {
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  bottom: 1px;
+  left: 110px;
+}
+.github {
+  display: flex;
+  color: #333;
+}
+.githubimg {
+  width: 30px;
+  margin-right: 10px;
+}
+.githublink {
+  position: relative;
+  font-size: 18px;
+  top: 5px;
+}
+.twitterimg {
+  position: relative;
+  top: 10px;
+  margin-right: 5px;
+}
+.twitterlink {
+  font-size: 18px;
+}
