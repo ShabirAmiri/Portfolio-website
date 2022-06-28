@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- // font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shabir Ahmad</title>
+  </head>
+  <body>
+    <div class="toolbar">
+      <div id="home">
+        <a class="links" href="./index.html">Home</a>
+      </div>
+      <div id="Languages">
+        <button class="toolbtn openModalBtn" data-target="langModal">
+          Languages
+        </button>
+      </div>
+      <div id="Projects">
+        <button class="toolbtn openModalBtn" data-target="projectModal">
+          Projects
+        </button>
+      </div>
+      <div id="Skills">
+        <button class="toolbtn openModalBtn" data-target="skillsModal">
+          Skills
+        </button>
+      </div>
+      <div id="contacts">
+        <button class="toolbtn openModalBtn" data-target="contactsModal">
+          Contacts
+        </button>
+      </div>
+    </div>
+
+    <div class="langModal langModalStyle hidden modal">
+      <button class="close-modal1 closeModalBtn closemodalstyle">
+        &times;
+      </button>
+      <div class="langContainer">
+        <div>
+          <p class="langHeading english">English</p>
+          <ul class="lagnstyle">
+            <li>Speaking: Good</li>
+            <li>listening: Good</li>
+            <li>writing: Good</li>
+          </ul>
+        </div>
+        <div>
+          <p class="langHeading persian">Persian</p>
+          <ul class="lagnstyle">
+            <li>Speaking: Advance</li>
+            <li>listening: Advance</li>
+            <li>writing: Advance</li>
+          </ul>
+        </div>
+        <div>
+          <p class="langHeading pashto">Pashto(Native language)</p>
+          <ul class="lagnstyle">
+            <li>Speaking: Advance</li>
+            <li>listening: Advance</li>
+            <li>writing: Advance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectModal langModalStyle hidden modal">
+      <button class="close-modal2 closeModalBtn closemodalstyle">
+        &times;
+      </button>
+      <div class="projectContainer">
+        <p class="langHeading" style="font-size: 40px">My Projects:</p>
+        <ul>
+          <li>
+            <a
+              class="project-links"
+              href="https://shabiramiri.github.io/guess-my-number/"
+              >guess-my-number</a
+            >
+          </li>
+          <li>
+            <a
+              class="project-links"
+              href="https://shabiramiri.github.io/diceGame/"
+              >Dice-Game</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skillsModal langModalStyle hidden modal">
+      <button class="close-modal3 closeModalBtn closemodalstyle">
+        &times;
+      </button>
+      <div class="skills-container">
+        <div>C</div>
+        <div>C++</div>
+        <div>DSA</div>
+        <div>DBMS</div>
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>Javascript</div>
+      </div>
+    </div>
+    <div class="contactsModal langModalStyle hidden modal">
+      <button class="close-modal3 closeModalBtn closemodalstyle">
+        &times;
+      </button>
+      <div class="contacs-container">
+        <div>Email:shabirahmadamiri00@gmail.com</div>
+        <div>Phone:+918977289511</div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <h1>
+      <span class="name-animation">S</span><span class="name-animation">h</span
+      ><span class="name-animation">a</span><span class="name-animation">b</span
+      ><span class="name-animation">i</span
+      ><span class="name-animation">r</span>
+      <span class="name-animation">A</span><span class="name-animation">h</span
+      ><span class="name-animation">m</span><span class="name-animation">a</span
+      ><span class="name-animation">d</span>
+      <span class="name-animation">A</span><span class="name-animation">m</span
+      ><span class="name-animation">i</span><span class="name-animation">r</span
+      ><span class="name-animation">i</span>
+    </h1>
+    <h2>
+      <span class="name-animation">F</span><span class="name-animation">r</span
+      ><span class="name-animation">o</span><span class="name-animation">n</span
+      ><span class="name-animation">t</span><span class="name-animation">-</span
+      ><span class="name-animation">e</span><span class="name-animation">n</span
+      ><span class="name-animation">d</span>
+      <span class="name-animation">w</span><span class="name-animation">e</span
+      ><span class="name-animation">b</span>
+      <span class="name-animation">d</span><span class="name-animation">e</span
+      ><span class="name-animation">v</span><span class="name-animation">e</span
+      ><span class="name-animation">l</span><span class="name-animation">o</span
+      ><span class="name-animation">p</span><span class="name-animation">e</span
+      ><span class="name-animation">r</span>
+    </h2>
+    <div class="line"></div>
+    <!-- <h3>"Always love to code && learn new stuff every single day"</h3> -->
+    <div class="container">
+      <img id="js" class="icons" src="./icons/javascript.ico" alt="js" />
+      <img id="css" class="icons" src="./icons/css3.png" alt="css" />
+      <img id="html" class="icons" src="./icons/html.png" alt="" />
+      <img class="know" src="./icons/knowledge.png" alt="" />
+    </div>
+    <div class="about-me">
+      <p>
+        I am from Afghanistan and doing my second year of Computer Science
+        Engineering in India at Jawaharlal Nehru Technological University. my
+        goal is to be a successful web developer and make beautiful websites.I
+        am a person who is positive about every aspect of life, and there are
+        many things I like to do like, traveling, listening to music, playing
+        video games, watching movies, and many more...<br />
+        "Always love to code && learn new stuff every single day"
+      </p>
+    </div>
+    <div class="footer">
+      <div class="github">
+        <img class="githubimg" src="./icons/github.png" alt="" />
+        <a class="links githublink" href="https://github.com/ShabirAmiri">
+          ShabirAhmadAmiri@github</a
+        >
+      </div>
+      <div class="twitter">
+        <img class="githubimg twitterimg" src="./icons/twitter.png" alt="" />
+        <a class="links twitterlink" href="">ShabirAhmadAmiri@twitter</a>
+      </div>
+    </div>
+    <div id="particles-js"></div>
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
